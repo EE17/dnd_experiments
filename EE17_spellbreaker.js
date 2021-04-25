@@ -35,7 +35,7 @@ AddSubClass(
             			spellcastingExtra : ["absorb elements", "blindness/deafness", "counterspell", "resilient spehere", "wall of force"],
             			spellcastingExtraApplyNonconform : true,
      			 },
-			"subclassfeature3.1" : {
+			"subclassfeature3.2" : {
 			  	name : "Spellsight",
 			  	source : ["HB", 11],
 			  	minlevel : 3,
@@ -45,7 +45,7 @@ AddSubClass(
 			  	action : [["action", ""]],
 			  	altresource : "SS 1+",
       			},
-			"subclassfeature3.2" : {
+			"subclassfeature3.3" : {
 			  	name : "Spell Absorption",
 			  	source : ["HB", 11],
 			 	minlevel : 3,
