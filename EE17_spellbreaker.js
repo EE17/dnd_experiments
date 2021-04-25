@@ -26,10 +26,10 @@ AddSubClass(
 				description : "\n   " + "I gain proficiency with the Arcana skill and can double proficiency to checks related to spellcasting",
         			skillstxt : "\n\n" + toUni("Spellbreaker (Mage Hunter)") + ": Arcana proficiency",
        				skills : ["Arcana"],
-				
+			},
 			"subclassfeature3.1" : {
-            			name : "Horizon Walker Magic",
-            			source : ["X", 42],
+            			name : "Spellbreaker's tools",
+            			source : ["HB", 11],
             			minlevel : 3,
             			description : "\n   " + "I add a spell to my known spells at level 3, 5, 9, 13, and 17" + "\n   " + "These count as ranger spells, but do not count against the number of spells I can know",
             			spellcastingExtra : ["absorb elements", "blindness/deafness", "counterspell", "resilient spehere", "wall of force"],
