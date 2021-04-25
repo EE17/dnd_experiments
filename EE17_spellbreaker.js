@@ -12,7 +12,7 @@ AddSubClass(
 
 		regExpSearch : /^(?=.*spellbreaker).*$/i, 
 
-		subname : "archetype of the spellbreaker", 
+		subname : "spellbreaker", 
 
 		source : ["HB", 11],
 
@@ -25,9 +25,9 @@ AddSubClass(
 				source : ["HB", 11],
 				minlevel : 3,
 				description : "\n   " + "I gain proficiency with the Arcana skill and can double proficiency to checks related to spellcasting",
-        			skillstxt : "\n\n" + toUni("Spellbreaker (Mage Hunter)") + ": Arcana proficiency",
-       				skills : ["Arcana"],
-        			spellcastingExtra : ["blindness/deafness", "counterspell", "resilient sphere", "wall of force"],
+        		skillstxt : "\n\n" + toUni("Spellbreaker (Mage Hunter)") + ": Arcana proficiency",
+       			skills : ["Arcana"],
+        		spellcastingExtra : ["blindness/deafness", "counterspell", "resilient sphere", "wall of force"],
      			 },
 			"subclassfeature3.1" : {
 			  	name : "Spellsight",
