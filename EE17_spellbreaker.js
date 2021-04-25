@@ -37,7 +37,7 @@ AddSubClass(
 			  	recovery : "short rest",
 			  	usages : 1,
 			  	action : [["action", ""]],
-			  	altresource : "SS 1+"
+			  	altresource : "SS 1+",
       			},
 			"subclassfeature3.2" : {
 			  	name : "Spell Absorption",
