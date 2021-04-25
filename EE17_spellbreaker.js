@@ -28,7 +28,6 @@ AddSubClass(
        				skills : ["Arcana"],
             			spellcastingExtra : ["absorb elements", "blindness/deafness", "counterspell", "resilient spehere", "wall of force"],
             			spellcastingExtraApplyNonconform : true
-        }
      			 },
 			"subclassfeature3.1" : {
 			  	name : "Spellsight",
