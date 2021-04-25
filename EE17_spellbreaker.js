@@ -1,4 +1,3 @@
-
 var iFileName = "Homebrew - Spellbreaker.js";
 RequiredSheetVersion(12.999); 
 
