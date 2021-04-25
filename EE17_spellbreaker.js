@@ -18,16 +18,16 @@ AddSubClass(
        				skills : ["Arcana"],
 			},
 			"subclassfeature3.1" : {
-			name : "Horizon Walker Magic",
-			source : ["X", 42],
-			minlevel : 3,
-			description : desc([
+            			name : "Spellbreaker's tools",
+            			source : ["HB", 11],
+            			minlevel : 3,
+				description : desc([
 				"I add a spell to my known spells at level 3, 5, 9, 13, and 17",
 				"These count as ranger spells, but do not count against the number of spells I can know"
-			]),
-			spellcastingExtra : ["protection from evil and good", "misty step", "haste", "banishment", "teleportation circle"],
-			spellcastingExtraApplyNonconform : true
-		},
+				]),
+            			spellcastingExtra : ["absorb elements", "blindness/deafness", "counterspell", "otiluke's resilient sphere", "wall of force"],
+            			spellcastingExtraApplyNonconform : true
+     		 	},
 			"subclassfeature3.2" : {
 			  	name : "Spellsight",
 			  	source : ["HB", 11],
