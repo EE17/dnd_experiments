@@ -39,10 +39,10 @@ AddSubClass(
 			  	altresource : "SS 1+"
       			},
 			"subclassfeature3.2" : {
-			  	name : "Spell Absorbtion",
+			  	name : "Spell Absorption",
 			  	source : ["HB", 11],
 			 	minlevel : 3,
-			  	description : "\n   " + "I can cast Absrob Elements without expending a spell slot and hit the absorbed damage back as a maximum roll.",
+			  	description : "\n   " + "I can cast Absorb Elements without expending a spell slot and hit the absorbed damage back as a maximum roll.",
 				recovery : "short rest",
 			 	usages : "Wisdom modifier per ",
 				usagescalc : "event.value = Math.max(1, What('Wis Mod'));",
@@ -52,13 +52,13 @@ AddSubClass(
 				name : "Arcane defense",
 				source : ["HB", 11],
 				minlevel : 7,
-				description : "\n   " + "When I make saving throws against spells, I can add my wisdom modifier to the save.",
+				description : "\n   " + "I can add my Wisdom modifier to saving throws against spells.",
 			},
 			"subclassfeature11" : {
 				name : "Mage Breaker",
 				source : ["HB", 11],
 				minlevel : 11,
-				description : "\n   " + "I can imbue my weapon with magic, it now deals force damage with a bonus equal to my wisdom modifier." + "\n   " + "If the target concentrates on a spell it takes an additional 1d8 force damage and has disadvantage on the concentration save.",
+				description : "\n   " + "I can imbue my weapon with magic, it now deals force damage with a bonus equal to my Wisdom modifier." + "\n   " + "If the target concentrates on a spell it takes an additional 1d8 force damage and has disadvantage on the concentration save.",
 				recovery : "long rest",
 			  	usages : "Wisdom modifier per ",
 				usagescalc : "event.value = Math.max(1, What('Wis Mod'));",
@@ -68,7 +68,7 @@ AddSubClass(
 				name : "Mantle of the Master",
 				source : ["HB", 11],
 				minlevel : 15,
-				description : "\n   " + "I gain inate resistance to all damage dealt by spells and magical effects.",
+				description : "\n   " + "I gain innate resistance to all damage dealt by spells and magical effects.",
 			},
 		}
 	}
