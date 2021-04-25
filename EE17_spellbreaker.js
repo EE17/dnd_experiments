@@ -27,20 +27,30 @@ AddSubClass(
 				description : "\n   " + "I gain proficiency with the Arcana skill and can double proficiency to checks related to spellcasting",
         			skillstxt : "\n\n" + toUni("Spellbreaker (Mage Hunter)") + ": Arcana proficiency",
        				skills : ["Arcana"],
-        			spellcastingExtra : ["absorb elements", "blindness/deafness", "counterspell", "resilient sphere", "wall of force"],
+        			spellcastingExtra : ["blindness/deafness", "counterspell", "resilient sphere", "wall of force"],
      			 },
 			"subclassfeature3.1" : {
-			  name : "Spellsight",
-			  source : ["HB", 11],
-			  minlevel : 3,
-			  description : desc([
-				"I can learn the spellcasting modifier and maximum spell slot anyone I can see within 60 feet use",
-			]),
-			  recovery : "short rest",
-			  usages : 1,
-			  action : [["action", ""]],
-			  altresource : "SS 1+"
+			  	name : "Spellsight",
+			  	source : ["HB", 11],
+			  	minlevel : 3,
+			 	description : "\n   " + "I can learn the spellcasting modifier and maximum spell slot anyone I can see within 60 feet use",
+			  	recovery : "short rest",
+			  	usages : 1,
+			  	action : [["action", ""]],
+			  	altresource : "SS 1+"
       			},
+			"subclassfeature3.2" : {
+			  	name : "Spell Absorbtion",
+			  	source : ["HB", 11],
+			 	minlevel : 3,
+			  	description : "\n   " + "I can cast Absrob Elements without expending a spell slot and hit the absorbed damage back as a maximum roll.",
+			  	spellcastingExtra : ["absorb elements"],
+				firstCol : 'atwill'
+				recovery : "short rest",
+			 	usages : "Wisdom modifier per ",
+				usagescalc : "event.value = Math.max(1, What('Wis Mod'));",
+			  	action : [["action", ""]],
+			},
 			"subclassfeature7" : {
 				name : "Arcane defense",
 				source : ["HB", 11],
