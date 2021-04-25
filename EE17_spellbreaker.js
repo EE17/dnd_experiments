@@ -21,7 +21,10 @@ AddSubClass(
             			name : "Spellbreaker's tools",
             			source : ["HB", 11],
             			minlevel : 3,
-            			description : "\n   " + "I add a spell to my known spells at level 3, 5, 9, 13, and 17" + "\n   " + "These count as ranger spells, but do not count against the number of spells I can know",
+				description : desc([
+				"I add a spell to my known spells at level 3, 5, 9, 13, and 17",
+				"These count as ranger spells, but do not count against the number of spells I can know"
+				]),
             			spellcastingExtra : ["absorb elements", "blindness/deafness", "counterspell", "otiluke's resilient sphere", "wall of force"],
             			spellcastingExtraApplyNonconform : true
      		 	},
