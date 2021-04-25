@@ -18,7 +18,7 @@ AddSubClass(
 
 		fullname : "Spellbreaker Ranger", 
 
-		features : //???
+		features : {
 
 			"subclassfeature3" : { 
 				name : "Mage Hunter",
