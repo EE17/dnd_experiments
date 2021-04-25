@@ -1,24 +1,14 @@
 var iFileName = "Homebrew - Spellbreaker.js";
 RequiredSheetVersion(12.999); 
-
 AddSubClass( 
-
 	"ranger",
-
 	"spellbreaker", 
-
 	{ 
-
 		regExpSearch : /^(?=.*spellbreaker).*$/i, 
-
 		subname : "spellbreaker", 
-
 		source : ["HB", 11],
-
 		fullname : "Spellbreaker Ranger", 
-
 		features : {
-
 			"subclassfeature3" : { 
 				name : "Mage Hunter",
 				source : ["HB", 11],
