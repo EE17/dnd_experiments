@@ -27,7 +27,7 @@ AddSubClass(
 				description : "\n   " + "I gain proficiency with the Arcana skill and can double proficiency to checks related to spellcasting",
         			skillstxt : "\n\n" + toUni("Spellbreaker (Mage Hunter)") + ": Arcana proficiency",
        				skills : ["Arcana"],
-        		spellcastingExtra : ["absorb elements", "blindness/deafness", "counterspell", "resilient sphere", "wall of force"],
+        			spellcastingExtra : ["absorb elements", "blindness/deafness", "counterspell", "resilient sphere", "wall of force"],
      			 },
 			"subclassfeature3.1" : {
 			  name : "Spellsight",
@@ -53,7 +53,8 @@ AddSubClass(
 				minlevel : 11,
 				description : "\n   " + "I can imbue my weapon with magic, it now deals force damage with a bonus equal to my wisdom modifier." + "\n   " + "If the target concentrates on a spell it takes an additional 1d8 force damage and has disadvantage on the concentration save.",
 				recovery : "long rest",
-			  	usages : 1, //wisdom modifier???
+			  	usages : "Wisdom modifier per ",
+				usagescalc : "event.value = Math.max(1, What('Wis Mod'));",
 			  	action : [["action", ""]],
 			},
 	      		"subclassfeature15" : {
