@@ -1,5 +1,5 @@
 MagicItemsList["Raven Claw gauntlets"] = {
-	name : "raven claw gauntlets",
+	name : "Raven Claw gauntlets",
 	source : ["eraxs", 1],
 	type : "Simple",
   ability : 1+2,
