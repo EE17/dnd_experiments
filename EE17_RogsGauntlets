@@ -1,0 +1,21 @@
+MagicItemsList["Raven Claw gauntlets"] = {
+	name : "raven claw gauntlets",
+	source : ["eraxs", 1],
+	type : "Simple",
+  ability : 1,
+  abilitytodamage : true,
+  damage : [1, 8, "piercing"],
+  range : "Melee",
+  description : " ",
+	rarity : "rare",
+	description : 'These gauntlets grant the wielder advantage on strength(athletics) checks to climb. They also increase the damage the wielders can deal with their bare hands.',
+  
+  
+  weaponsAdd : ["Raven Claw gauntlets"],
+	weaponOptions : {
+		baseWeapon : "war pick",
+		regExpSearch : /^(?=.*raven) (?=.*claw) (?=.*gauntlets).*$/i,
+		name : "raven claw gauntlets",
+		source : ["eraxs", 1],
+	},
+	}
