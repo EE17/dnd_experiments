@@ -14,7 +14,7 @@ MagicItemsList["Raven Claw gauntlets"] = {
   
   weaponsAdd : ["Raven Claw gauntlets"],
 	weaponOptions : {
-		baseWeapon : "war pick",
+		baseWeapon : "club",
 		regExpSearch : /^(?=.*raven) (?=.*claw) (?=.*gauntlets).*$/i,
 		name : "raven claw gauntlets",
 		source : ["eraxs", 1],
