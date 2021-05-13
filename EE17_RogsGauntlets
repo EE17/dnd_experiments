@@ -2,7 +2,7 @@ MagicItemsList["Raven Claw gauntlets"] = {
 	name : "raven claw gauntlets",
 	source : ["eraxs", 1],
 	type : "Simple",
-  ability : 1,
+  ability : 1+2,
   abilitytodamage : true,
   damage : [1, 8, "piercing"],
   range : "Melee",
