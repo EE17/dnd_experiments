@@ -1,22 +1,21 @@
-MagicItemsList["Raven Claw gauntlets"] = {
-	name : "Raven Claw gauntlets",
-	source : ["eraxs", 1],
-	type : "Simple",
-  ability : 1,
-  abilitytodamage : true,
-  modifiers : ["Dex", "Dex"],
-  damage : [1, 8, "piercing"],
-  range : "Melee",
-  description : " ",
-	rarity : "rare",
-	description : 'These gauntlets grant the wielder advantage on strength(athletics) checks to climb. They also increase the damage the wielders can deal with their bare hands.',
-  
-  
-  weaponsAdd : ["Raven Claw gauntlets"],
-	weaponOptions : {
-		baseWeapon : "club",
-		regExpSearch : /^(?=.*raven) (?=.*claw) (?=.*gauntlets).*$/i,
-		name : "raven claw gauntlets",
-		source : ["eraxs", 1],
-	},
-	}
+MagicItemsList["raven claw gauntlets"] = {
+    name : "Raven Claw Gauntlets",
+    source : ["eraxs", 1],
+    type : "weapon (simple)",
+    rarity : "rare",
+    description : "These gauntlets grant the wielder advantage on Strength (Athletics) checks to climb. They also increase the damage the wielders can deal with their bare hands.",
+    weaponsAdd : ["Raven Claw Gauntlets"],
+    weaponOptions : {
+        regExpSearch : /^(?=.*raven)(?=.*claw)(?=.*gauntlets).*$/i,
+        name : "Raven Claw Gauntlets",
+        source : ["eraxs", 1],
+        ability : 1,
+        type : "Simple",
+        damage : [1, 8, "piercing"],
+        modifiers : ["Dex", "Dex"],
+        range : "Melee",
+        description : "",
+        abilitytodamage : true,
+        monkweapon : true,
+        },
+};
