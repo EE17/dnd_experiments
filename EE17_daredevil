@@ -35,13 +35,13 @@ all but the most potent observers. Starting at 3rd level, you have a climbing sp
 If you manage to land on something soft that breaks your fall, like a wagon full of hay, you take no damage from the fall.
 ",
 			},
-			"subclassfeature13" : {           //TBC
+			"subclassfeature13" : {
 				name : "Defy Death",
 				source : ["HB", 11],
 				minlevel : 13,
 				description : "\n   " + "Your Daredevil lifestyle has been cause for many near-death experiences, any you've gained an unfortunate familiarity with death. Starting at 13th level, you have advantage on death saving throws.",
 			},
-	      		"subclassfeature17" : {     //TBC
+	      		"subclassfeature17" : {
 				name : "Airborne Strikes",
 				source : ["HB", 11],
 				minlevel : 17,
