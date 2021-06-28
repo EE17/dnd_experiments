@@ -15,21 +15,19 @@ AddSubClass(
 				minlevel : 3,
 				description : "\n   " + "When you leap through the air you appear to be flying to 
 all but the most potent observers. Starting at 3rd level, you have a climbing speed equal to your movement speed.
-In addition, you use your reflexes and acrobatic skill to propel yourself through the air. When you make a running or standing long or high jump, you use your Dexterity score, in place of Strength, to calculate the distance of your jump.
-",
+" + "\n   " + "In addition, you use your reflexes and acrobatic skill to propel yourself through the air. When you make a running or standing long or high jump, you use your Dexterity score, in place of Strength, to calculate the distance of your jump.",
         speed : {
 		      climb : { spd : 'walk', enc : 'walk' }
 	        },
 			},
-			"subclassfeature3.1" : {          //TBC
+			"subclassfeature3.1" : {
 			  	name : "Death from Above",
 			  	source : ["HB", 12],
-			  	minlevel : 3,
-			 	description : "\n   " + "If you move at least 10 feet through the air, and land within 5 feet of a Large or smaller creature, you can use your action to force the creature to make a Strength saving throw. The save DC is equal to 8 + your proficiency bonus + your Dexterity modifier. On a failed save, it is knocked prone and takes 2d6 bludgeoning damage.
-This special attack can apply your Sneak Attack damage, even if it doesn't meet the requirements for Sneak Attack.
-",
-      			},
-			"subclassfeature9" : {             //TBC
+			  	minlevel: 3, 
+				description : "\n   " + "When you adopt this archetype at 3rd level, you can use your maneuverability and momentum to turn your airborne body into a projectile. If you move at least 10 feet through the air, and land within 5 feet of a Large or smaller creature, you can use your action to force the creature to make a Strength saving throw. The save DC is equal to 8 + your proficiency bonus + your Dexterity modifier. On a failed save, it is knocked prone and takes 2d6 bludgeoning damage.
+" + "\n   " + "This special attack can apply your Sneak Attack damage, even if it doesn't meet the requirements for Sneak Attack.",
+				},
+			"subclassfeature9" : {
 				name : "Slow Fall",
 				source : ["HB", 11],
 				minlevel : 9,
