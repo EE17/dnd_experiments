@@ -9,7 +9,7 @@ AddSubClass(
 		source : ["HB", 12],
 		fullname : "Daredevil Rogue", 
 		features : {
-			"subclassfeature3" : {            //TBC
+			"subclassfeature3" : {
 				name : "Aerialist",
 				source : ["HB", 12],
 				minlevel : 3,
