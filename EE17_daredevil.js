@@ -2,7 +2,6 @@ var iFileName = "Homebrew - Daredevil.js";
 RequiredSheetVersion(12.999); 
 AddSubClass( 
 	"rogue",
-	"daredevil", 
 	"Daredevil", 
 	{ 
 		regExpSearch : /^(?=.*daredevil).*$/i, 
